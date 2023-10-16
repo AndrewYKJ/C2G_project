@@ -17,11 +17,6 @@ class DioRepo {
   int retryCount = 0;
   late BuildContext dioContext;
 
-  static String testHost =
-      "https://dgdportalcf2018.zuma.com.my/rest/dgdsvrapi/dgdsvrAPI/";
-
-  static String production = "https://epp.sabah.gov.my/rest/dgdsvrapi/dgdsvrAPI/";
-
   Dio baseConfig() {
     Dio dio = Dio();
 
